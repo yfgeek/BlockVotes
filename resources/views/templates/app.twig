@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Dashboard | Blockvotes</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/vendor/linearicons/style.css">
+	<link rel="stylesheet" href="/assets/vendor/chartist/css/chartist-custom.css">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="/assets/css/admin.css">
+
+	<link rel="stylesheet" type="text/css" href="/assets/css/sweetalert.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+
+</head>
+
+<body>
+<div id="wrapper">
+{% include 'templates/partials/header.twig' %}
+{% include 'templates/partials/navigation.twig' %}
+<div class="main">
+	<!-- MAIN CONTENT -->
+	<div class="main-content">
+		<div class="container-fluid">
+			<!-- OVERVIEW -->
+			{#<div class="panel panel-headline">#}
+				{#<div class="panel-heading">#}
+					{#<h3 class="panel-title">Weekly Overview</h3>#}
+					{#<p class="panel-subtitle">Period: Oct 14, 2016 - Oct 21, 2016</p>#}
+				{#</div>#}
+				{#<div class="panel-body">#}
+                    {% include 'templates/partials/flash.twig' %}
+                    {% block content %}
+                    {% endblock %}
+				{#</div>#}
+			{#</div>#}
+			<!-- END OVERVIEW -->
+		</div>
+	</div>
+	<!-- END MAIN CONTENT -->
+</div>
+</div>
+
+
+<!-- Javascript -->
+<script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/vendor/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="/assets/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+<script src="/assets/vendor/chartist/js/chartist.min.js"></script>
+<script src="/assets/vendor/sweet-alert/sweetalert.min.js"></script>
+<script src="/assets/scripts/common.js"></script>
+
+<script src="/assets/scripts/main.js"></script>
+
+{% if current_path == path_for('ra.dashboard') %}
+	<script src="/assets/scripts/ra-dashboard.js"></script>
+{% endif %}
+
+{% if current_path == path_for('ra.candidates') %}
+	<script src="/assets/scripts/ra-candidate.js"></script>
+{% endif %}
+{% if current_path == path_for('ra.addCandidate') %}
+	<script src="/assets/scripts/ra-addCandidate.js"></script>
+{% endif %}
+
+
+{% if current_path == path_for('ea.dashboard') %}
+<script src="/assets/scripts/ea-dashboard.js"></script>
+{% endif %}
+
+{% if current_path == path_for('ea.vote') %}
+<script src="/assets/scripts/ea-vote.js"></script>
+{% endif %}
+
+{% if current_path == path_for('ea.balance') %}
+	<script src="/assets/scripts/ea-balance.js"></script>
+{% endif %}
+{% if current_path == path_for('ea.fee') %}
+	<script src="/assets/scripts/ea-fee.js"></script>
+
+	<!-- Bitcoin JS -->
+	<script src="/assets/vendor/bitcoinjs/bitcoinjs-min.js"></script>
+	<!-- Hash -->
+	<script src="/assets/vendor/ring-signature/sha1.js"></script>
+{% endif %}
+</body>
+</html>

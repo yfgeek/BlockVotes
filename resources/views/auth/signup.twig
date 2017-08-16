@@ -1,0 +1,38 @@
+{% extends 'templates/public.twig' %}
+
+{% block content %}
+
+    				<form action="{{ path_for('auth.signup') }}" method="post">
+
+    					<div class="form-group{{ errors.username ? ' has-error' : '' }}">
+    						<label for="username">Name</label>
+    						<input type="text" name="username" id="username" class="form-control" value="{{ old.name }}" >
+                            {% if errors.username %}
+                            <span class="hel-block">{{ errors.username | first }}</span>
+                            {% endif %}
+    					</div>
+
+						{#<div class="form-group"{{ errors.code ? ' has-error' : '' }}>#}
+							{#<label for="code">Ballot Code</label>#}
+							{#<input type="text" name="code" id="code" class="form-control">#}
+                            {#{% if errors.code %}#}
+								{#<span class="hel-block">{{ errors.code | first }}</span>#}
+                            {#{% endif %}#}
+						{#</div>#}
+
+    					<div class="form-group{{ errors.password ? ' has-error' : '' }}">
+    						<label for="password">Password</label>
+    						<input type="password" name="password" id="password" class="form-control">
+                            {% if errors.password %}
+                            <span class="hel-block">{{ errors.password | first }}</span>
+                            {% endif %}
+    					</div>
+
+
+
+						<button type="submit" class="btn btn-primary">Sign Up</button>
+
+                        {{ csrf.field | raw }}
+    				</form>
+
+{% endblock %}

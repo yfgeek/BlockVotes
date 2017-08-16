@@ -1,0 +1,75 @@
+.voter-box{
+}
+.voter-box .panel-title{
+    font-size: 25px;
+    color: #0b0b0b;
+    font-weight: 500 !important;
+}
+.button-step{
+    text-align: right;
+}
+.list-candidate span{
+    font-size: 18px !important;
+    padding: 10px 0;
+    color: #000;
+}
+
+.cmd-box{
+    background-color:#333;
+    color: #FFF;
+}
+.cmd-box:focus {
+    background-color:#333;
+    color: #FFF;
+}
+.swal-wide{
+    width: 700px !important;
+    margin-left: -350px;
+}
+.panel-candidate{
+    height:200px;
+}
+
+.panel-candidate:hover{
+    border: #00AAFF 1px solid;
+    cursor: pointer;
+}
+
+.selected{
+    background:  #00AAFF;
+    color: #fff;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.3s;
+}
+
+.selected .panel-title{
+    color: #fff;
+}
+.selected .panel-subtitle{
+    color: #f3f3f3 !important;
+}
+
+.finish-box{
+    font-family: 'Arial';
+    text-align: left;
+    font-size: 14px;
+    color: #000;
+    line-height:32px;
+}
+.box-des{
+
+    color: #000;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+

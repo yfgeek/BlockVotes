@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en" class="fullscreen-bg">
+
+<head>
+	<title>Vote Now</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<!-- VENDOR CSS -->
+	<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/vendor/linearicons/style.css">
+	<link rel="stylesheet" href="/assets/vendor/chartist/css/chartist-custom.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/sweetalert.css">
+
+	<!-- MAIN CSS -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="/assets/css/voter.css">
+	<link rel="stylesheet" href="/assets/css/verify.css">
+	<link rel="stylesheet" href="/assets/css/tally.css">
+
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+	<!-- ICONS -->
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon.png">
+</head>
+
+<body>
+<!-- WRAPPER -->
+<div id="wrapper" class="main-content voter-box">
+	<div class="container">
+
+		<input class="code" type="hidden" value="{{ code }}">
+        {% include 'templates/partials/flash.twig' %}
+
+        {% block content %}
+
+        {% endblock %}
+
+
+	</div>
+</div>
+<!-- END WRAPPER -->
+<!-- Jquery & Jquery Plugins -->
+<script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/jquery/jquery.base64.js"></script>
+
+<!-- SweetAlert Plugins -->
+<script src="/assets/vendor/sweet-alert/sweetalert.min.js"></script>
+
+{% if current_path == path_for('vote.home') %}
+	<!-- Load Description -->
+	<script src="/assets/scripts/home.js"></script>
+{% endif %}
+
+{% if current_path == path_for('vote.vote') %}
+
+	<!-- JSencript Plugins -->
+	<script src="/assets/vendor/jsencrypt/jsencrypt.min.js"></script>
+
+	<!-- Ring signature -->
+	<script src="/assets/vendor/ring-signature/jsbn.js"></script>
+	<script src="/assets/vendor/ring-signature/jsbn2.js"></script>
+	<script src="/assets/vendor/ring-signature/rsa.js"></script>
+	<script src="/assets/vendor/ring-signature/rsa2.js"></script>
+	<script src="/assets/vendor/ring-signature/sha1.js"></script>
+	<script src="/assets/vendor/ring-signature/prng4.js"></script>
+	<script src="/assets/vendor/ring-signature/rng.js"></script>
+	<script src="/assets/vendor/ring-signature/ring.js"></script>
+	<script src="/assets/vendor/ring-signature/jsencrypt.js"></script>
+
+	<!-- Bitcoin JS -->
+	<script src="/assets/vendor/bitcoinjs/bitcoinjs-min.js"></script>
+
+	<!-- Vote Basic -->
+	<script src="/assets/scripts/basic.js"></script>
+
+	<!-- Loading Candidates -->
+	<script src="/assets/scripts/candidate.js"></script>
+
+	<!-- Vote Page -->
+	<script src="/assets/scripts/vote.js"></script>
+
+	<!-- Vote Now -->
+	<script src="/assets/scripts/vote-now.js"></script>
+
+{% endif %}
+
+{% if current_path == path_for('vote.fill') %}
+	<!-- JSencript Plugins -->
+	<script src="/assets/vendor/jsencrypt/jsencrypt.min.js"></script>
+
+	<!-- Bitcoin JS -->
+	<script src="/assets/vendor/bitcoinjs/bitcoinjs-min.js"></script>
+
+	<!-- Vote Basic -->
+	<script src="/assets/scripts/basic.js"></script>
+
+	<!-- Vote Fill -->
+	<script src="/assets/scripts/vote-fill.js"></script>
+{% endif %}
+
+
+{% if current_path == path_for('verify.now') %}
+	<!-- Loading Candidates -->
+	<script src="/assets/scripts/candidate.js"></script>
+	<!-- Vote Basic -->
+	<script src="/assets/scripts/basic.js"></script>
+	<!-- Ring signature -->
+	<script src="/assets/vendor/ring-signature/jsbn.js"></script>
+	<script src="/assets/vendor/ring-signature/jsbn2.js"></script>
+	<script src="/assets/vendor/ring-signature/rsa.js"></script>
+	<script src="/assets/vendor/ring-signature/rsa2.js"></script>
+	<script src="/assets/vendor/ring-signature/sha1.js"></script>
+	<script src="/assets/vendor/ring-signature/prng4.js"></script>
+	<script src="/assets/vendor/ring-signature/rng.js"></script>
+	<script src="/assets/vendor/ring-signature/ring.js"></script>
+	<script src="/assets/vendor/ring-signature/jsencrypt.js"></script>
+
+	<!-- Verify Page -->
+	<script src="/assets/scripts/verify.js"></script>
+
+{% endif %}
+
+{% if current_path == path_for('tally.now') %}
+	<!-- Chartist Plugins -->
+	<script src="/assets/vendor/chartist/js/chartist.min.js"></script>
+	<!-- Basic Functions -->
+	<script src="/assets/scripts/basic.js"></script>
+
+	<!-- If current page is Tally -->
+	<script src="/assets/scripts/tally.js"></script>
+
+
+{% endif %}
+
+
+</body>
+
+</html>
+

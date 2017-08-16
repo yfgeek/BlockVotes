@@ -1,0 +1,29 @@
+.panel-vote-item{
+    margin: 15px 0 ;
+}
+
+.panel-vote-item:hover{
+    cursor: pointer;
+
+}
+
+.profile-main{
+    height:220px;
+}
+
+.panel-vote-item:hover{
+    cursor: pointer;
+}
+.panel-vote-item .overlay:hover{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.panel-vote-item .clicked{
+    background-color: rgba(0, 0, 0, 0) !important;
+    opacity: 1;
+}
+
+.vote-radio{
+    text-align: center;
+    margin: 10px 0;
+}

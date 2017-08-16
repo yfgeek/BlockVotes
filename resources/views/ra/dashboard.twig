@@ -1,0 +1,121 @@
+{% extends 'templates/app.twig' %}
+
+{% block content %}
+    <input type="hidden" class="bitcoin-address" value="{{ user.bitcoin_address }}">
+    <div class="row">
+    	<div class="col-md-12">
+            <div class="panel panel-headline">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Overview</h3>
+                    <p class="panel-subtitle">Welcome back, </p>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="metric">
+                                <span class="icon"><i class="fa fa-btc"></i></span>
+                                <p>
+                                    <span class="number number-btc">Loading...</span>
+                                    <span class="title">Balance</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="metric">
+                                <span class="icon"><i class="fa fa-globe"></i></span>
+                                <p>
+                                    <span class="number number-network">Loading..</span>
+                                    <span class="title">Network</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="metric">
+                                <span class="icon"><i class="fa fa-eye"></i></span>
+                                <p>
+                                    <span class="number">274,678</span>
+                                    <span class="title">Visits</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="metric">
+                                <span class="icon"><i class="fa fa-bar-chart"></i></span>
+                                <p>
+                                    <span class="number">35%</span>
+                                    <span class="title">Conversions</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div id="headline-chart" class="ct-chart"><svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="300" class="ct-chart-line" style="width: 100%; height: 300;"><g class="ct-grids"><line y1="265" y2="265" x1="50" x2="654.75" class="ct-grid ct-vertical"></line><line y1="229.28571428571428" y2="229.28571428571428" x1="50" x2="654.75" class="ct-grid ct-vertical"></line><line y1="193.57142857142856" y2="193.57142857142856" x1="50" x2="654.75" class="ct-grid ct-vertical"></line><line y1="157.85714285714286" y2="157.85714285714286" x1="50" x2="654.75" class="ct-grid ct-vertical"></line><line y1="122.14285714285714" y2="122.14285714285714" x1="50" x2="654.75" class="ct-grid ct-vertical"></line><line y1="86.42857142857142" y2="86.42857142857142" x1="50" x2="654.75" class="ct-grid ct-vertical"></line><line y1="50.71428571428572" y2="50.71428571428572" x1="50" x2="654.75" class="ct-grid ct-vertical"></line><line y1="15" y2="15" x1="50" x2="654.75" class="ct-grid ct-vertical"></line></g><g><g class="ct-series ct-series-a"><path d="M50,265L50,172.143L150.792,129.286L251.583,165L352.375,50.714L453.167,157.857L553.958,165L654.75,86.429L654.75,265Z" class="ct-area"></path></g><g class="ct-series ct-series-b"><path d="M50,265L50,236.429L150.792,157.857L251.583,207.857L352.375,93.571L453.167,129.286L553.958,65L654.75,22.143L654.75,265Z" class="ct-area"></path></g></g><g class="ct-labels"><foreignObject style="overflow: visible;" x="50" y="270" width="100.79166666666667" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 101px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">Mon</span></foreignObject><foreignObject style="overflow: visible;" x="150.79166666666669" y="270" width="100.79166666666667" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 101px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">Tue</span></foreignObject><foreignObject style="overflow: visible;" x="251.58333333333334" y="270" width="100.79166666666666" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 101px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">Wed</span></foreignObject><foreignObject style="overflow: visible;" x="352.375" y="270" width="100.79166666666669" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 101px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">Thu</span></foreignObject><foreignObject style="overflow: visible;" x="453.1666666666667" y="270" width="100.79166666666669" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 101px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">Fri</span></foreignObject><foreignObject style="overflow: visible;" x="553.9583333333334" y="270" width="100.79166666666663" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 101px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">Sat</span></foreignObject><foreignObject style="overflow: visible;" x="654.75" y="270" width="30" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 30px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">Sun</span></foreignObject><foreignObject style="overflow: visible;" y="229.28571428571428" x="10" height="35.714285714285715" width="30"><span class="ct-label ct-vertical ct-start" style="height: 36px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">10</span></foreignObject><foreignObject style="overflow: visible;" y="193.57142857142856" x="10" height="35.714285714285715" width="30"><span class="ct-label ct-vertical ct-start" style="height: 36px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">15</span></foreignObject><foreignObject style="overflow: visible;" y="157.85714285714283" x="10" height="35.71428571428571" width="30"><span class="ct-label ct-vertical ct-start" style="height: 36px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">20</span></foreignObject><foreignObject style="overflow: visible;" y="122.14285714285714" x="10" height="35.71428571428572" width="30"><span class="ct-label ct-vertical ct-start" style="height: 36px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">25</span></foreignObject><foreignObject style="overflow: visible;" y="86.42857142857142" x="10" height="35.71428571428572" width="30"><span class="ct-label ct-vertical ct-start" style="height: 36px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">30</span></foreignObject><foreignObject style="overflow: visible;" y="50.71428571428572" x="10" height="35.714285714285694" width="30"><span class="ct-label ct-vertical ct-start" style="height: 36px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">35</span></foreignObject><foreignObject style="overflow: visible;" y="15" x="10" height="35.71428571428572" width="30"><span class="ct-label ct-vertical ct-start" style="height: 36px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">40</span></foreignObject><foreignObject style="overflow: visible;" y="-15" x="10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">45</span></foreignObject></g></svg></div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="weekly-summary text-right">
+                                <span class="number">2,315</span> <span class="percentage"><i class="fa fa-caret-up text-success"></i> 12%</span>
+                                <span class="info-label">Total Sales</span>
+                            </div>
+                            <div class="weekly-summary text-right">
+                                <span class="number">$5,758</span> <span class="percentage"><i class="fa fa-caret-up text-success"></i> 23%</span>
+                                <span class="info-label">Monthly Income</span>
+                            </div>
+                            <div class="weekly-summary text-right">
+                                <span class="number">$65,938</span> <span class="percentage"><i class="fa fa-caret-down text-danger"></i> 8%</span>
+                                <span class="info-label">Total Income</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    	</div>
+    </div>
+
+    <!-- Manage Key modal -->
+    <div class="modal fade modal-manage-key" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Keys Pool</h4>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>Voters Numbers</th>
+                            <th>Created Time</th>
+                            <th>Operation</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for item in data %}
+                            <tr>
+                                <td>{{ item.id }}</td>
+                                <td>{{ item.title }}</td>
+                                <td>{{ item.number }}</td>
+                                <td>{{ item.created_at }}</td>
+                                <td><button type="button" class="btn btn-primary"  data-toggle="modal" data-target=".modal-manage-key"><i class="fa fa-refresh"></i> Manage Keys</button></td>
+                            </tr>
+                        {% else %}
+                            <tr>
+                                <td>No data</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

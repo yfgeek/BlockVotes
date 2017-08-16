@@ -1,0 +1,58 @@
+{% extends 'templates/app.twig' %}
+
+{% block content %}
+    <div class="row">
+    	<div class="col-md-7">
+    		<div class="panel panel-headline">
+    			<div class="panel-heading">Add a vote</div>
+    			<div class="panel-body">
+    				<form action="{{ path_for('ea.vote') }}" method="post">
+
+    					<div class="form-group{{ errors.title ? ' has-error' : '' }}">
+    						<label for="title">Title</label>
+    						<input type="text" name="title" id="title" class="form-control" >
+                            {% if errors.title %}
+                            <span class="hel-block">{{ errors.title | first }}</span>
+                            {% endif %}
+    					</div>
+
+						<div class="form-group"{{ errors.number ? ' has-error' : '' }}>
+							<label for="number">Numbers of voters</label>
+							<input type="text" name="number" id="number" class="form-control">
+                            {% if errors.number %}
+								<span class="hel-block">{{ errors.number | first }}</span>
+                            {% endif %}
+						</div>
+						<div class="form-group"{{ errors.number ? ' has-error' : '' }}>
+							<label for="number">Description</label>
+							<textarea class="form-control" placeholder="" rows="6"></textarea>
+                            {% if errors.number %}
+								<span class="hel-block">{{ errors.number | first }}</span>
+                            {% endif %}
+						</div>
+
+						<div class="button-right">
+							<button type="submit" class="btn btn-primary">Add</button>
+						</div>
+                        {{ csrf.field | raw }}
+    				</form>
+    			</div>
+    		</div>
+    	</div>
+		<div class="col-md-5">
+			<div class="panel panel-headline">
+				<div class="panel-heading">Addition Background</div>
+				<div class="panel-body">
+					<div class="form-group">
+						<img src="/assets/img/upload.jpg" width="330">
+
+					</div>
+					<div class="button-right">
+						<button type="button"  class="btn btn-info btn-upload">Upload</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+    </div>
+{% endblock %}

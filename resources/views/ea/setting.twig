@@ -1,0 +1,72 @@
+{% extends 'templates/app.twig' %}
+
+{% block content %}
+	<div class="row">
+		<div class="col-md-5">
+			<!-- PANEL HEADLINE -->
+			<div class="panel panel-headline">
+				<div class="panel-heading">
+					<h3 class="panel-title">Blockchain Network</h3>
+					<p class="panel-subtitle">Select your blockchain network to publish your vote sigs</p>
+				</div>
+				<div class="panel-body network-select">
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-md-5">
+							<img src="/assets/img/bitcoin.png" alt="" class="img-rounded" width="128">
+							<label class="fancy-radio">
+								<input name="network" value="bitcoin" type="radio">
+								<span><i></i>Bitcoin</span>
+							</label>
+						</div>
+						<div class="col-md-5">
+							<img src="/assets/img/testnet.png" alt="" class="img-rounded" width="128">
+							<label class="fancy-radio">
+								<input name="network" value="testnet" type="radio" checked>
+								<span><i></i>Testnet</span>
+							</label>
+						</div>
+						<div class="col-md-1"></div>
+
+
+					</div>
+				</div>
+			</div>
+			<!-- END PANEL HEADLINE -->
+		</div>
+		<div class="col-md-7">
+			<!-- PANEL NO PADDING -->
+			<div class="panel  panel-headline">
+				<div class="panel-heading">
+					<h3 class="panel-title">Address & Keys</h3>
+					<p class="panel-subtitle">The EA's address and private keys</p>
+				</div>
+				<div class="panel-body">
+					<div class="form-group{{ errors.setting ? ' has-error' : '' }}">
+						<label for="address">Bitcoin Address</label>
+						<input type="text" name="address" id="bitcoin_address" class="form-control" value="{{ user.bitcoin_address }}">
+                        {% if errors.setting %}
+							<span class="hel-block">{{ errors.setting | first }}</span>
+                        {% endif %}
+
+					</div>
+
+					<div class="form-group{{ errors.setting ? ' has-error' : '' }}">
+						<label for="comment">Public Key(pem)</label>
+						<textarea name="pubkey" id="pubkey" class="form-control" rows="5" id="comment">{{ user.priv_key }}</textarea>
+					</div>
+                    {% if errors.setting %}
+						<span class="hel-block">{{ errors.setting | first }}</span>
+                    {% endif %}
+                    {{ csrf.field | raw }}
+					<div class="button-right">
+						<button type="submit" class="btn btn-primary">Confirm</button>
+					</div>
+
+				</div>
+			</div>
+			<!-- END PANEL NO PADDING -->
+		</div>
+	</div>
+
+{% endblock %}

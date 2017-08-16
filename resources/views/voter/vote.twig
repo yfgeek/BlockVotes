@@ -1,0 +1,52 @@
+{% extends 'templates/voter.twig' %}
+
+{% block content %}
+        <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-headline">
+
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="lnr lnr-inbox"></i>  {{ title }}</h3>
+                        <p class="panel-subtitle">Vote for your PM</p>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <input type="hidden" class="vote-candidate" value="" />
+                            <div class="list-candidate">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <input type="hidden" class="item_id" value="{{ item_id }}">
+                <div class="panel panel-headline">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Select Your Identity</h3>
+                        <p class="panel-subtitle">Available numbers: <span class="bitcoin-address-numbers"></span></p>
+                    </div>
+                    <div class="panel-body">
+                        <p>Bitcoin Address</p>
+                        <select class="form-control bitcoin-address-box">
+                            {{ csrf.field | raw }}
+                        </select>
+                        <br><p>Public key</p>
+
+                        <textarea class="form-control public-key-area" placeholder="" rows="6" readonly>{% if public_key != '0' %}{{ public_key }}{% endif %}</textarea>
+
+                        <br><p>Private key</p>
+                        <textarea class="form-control private-key-area" placeholder="" rows="6"></textarea>
+                        <br>
+                        <div class="button-step">
+                            <button type="button" class="btn btn-primary btn-start-vote">Vote now</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+{% endblock %}

@@ -1,0 +1,55 @@
+{% extends 'templates/app.twig' %}
+
+{% block content %}
+    <div class="row">
+    	<div class="col-md-12 ">
+    		<div class="panel panel-headline">
+    			<div class="panel-heading">Ballot Code List</div>
+    			<div class="panel-body">
+    				<form action="{{ path_for('ra.ballot') }}" method="post">
+                        <div class="form-group">
+                            <label for="number">Numbers of Ballots</label>
+                            <input type="text" name="number" id="ballots" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="item_id">Vote ID</label>
+                            <input type="text" name="item_id" id="item_id" class="form-control">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Generate</button>
+                        {{ csrf.field | raw }}
+
+                    </form>
+
+                        <hr>
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Code</th>
+                                <th>isUsed</th>
+                                <th>UseFor</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for item in data %}
+                            <tr>
+                                <td>{{ item.id }}</td>
+                                <td>{{ item.code }}</td>
+                                <td>{% if item.used==0 %} no {% else %} yes{% endif %}</td>
+                                <td>{{ item.item_id }}</td>
+                             </tr>
+                            {% else %}
+                            <tr>
+                                <td>No data</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                           {% endfor %}
+                            </tbody>
+                        </table>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+{% endblock %}

@@ -1,0 +1,15 @@
+.modal-content {
+    border-radius: 0;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.125);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.125);
+}
+
+@media (min-width: 768px){
+    .modal-content {
+        -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.125);
+        box-shadow: 0 2px 3px rgba(0,0,0,0.125);
+    }
+}
+
+
+

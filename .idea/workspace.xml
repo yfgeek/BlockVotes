@@ -1,0 +1,1502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53347f7c-aba9-40d1-bc70-383010269e22" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="blockvotes" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="VoteAPIController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controllers/EA/VoteAPIController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controllers/Auth/AuthController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="120" column="1" lean-forward="true" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="public.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/templates/public.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="voter.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/templates/voter.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1620">
+              <caret line="108" column="52" lean-forward="false" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VoterController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controllers/Voter/VoterController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2055">
+              <caret line="139" column="25" lean-forward="false" selection-start-line="139" selection-start-column="25" selection-end-line="139" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="verify.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/scripts/verify.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/verify/home.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="82" lean-forward="false" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockChainController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controllers/EA/BlockChainController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="30" />
+              <folding>
+                <element signature="e#38#69#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EASettingController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controllers/EA/EASettingController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>createChart</find>
+      <find>.ct-series-g .ct-slice-pie, .ct-series-g .ct-area</find>
+      <find>v</find>
+      <find>hidden</find>
+      <find>TwigExtension</find>
+      <find>verify.now</find>
+      <find>getCandidates</find>
+      <find>veri</find>
+      <find>commit</find>
+      <find>con</find>
+      <find>candidatevotes</find>
+      <find>console</find>
+      <find>bick</find>
+      <find>bit</find>
+      <find>/ea/vote</find>
+      <find>candidate</find>
+      <find>candi</find>
+      <find>candida</find>
+      <find>loadCandidate</find>
+      <find>tbc</find>
+      <find>ea</find>
+      <find>addcandid</find>
+      <find>editcandidate</find>
+      <find>input</find>
+      <find>txlist</find>
+      <find>hash</find>
+      <find>address</find>
+      <find>bitcoinAddress</find>
+      <find>itemid</find>
+      <find>padd</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>privkey</replace>
+      <replace>keys</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ivan &lt;yifanb@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/resources/views/ra/ballot.twig" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/Controllers/EA/VoteController.php" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/Controllers/RA/BallotController.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/Controllers/EA/VoteAPIController.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/resources/views/voter/verify.twig" />
+        <option value="$PROJECT_DIR$/public/assets/css/verify.css" />
+        <option value="$PROJECT_DIR$/app/Controllers/Voter/VoterController.php" />
+        <option value="$PROJECT_DIR$/resources/views/verify/verify.twig" />
+        <option value="$PROJECT_DIR$/app/Models/Signatures.php" />
+        <option value="$PROJECT_DIR$/public/assets/css/tally.css" />
+        <option value="$PROJECT_DIR$/public/assets/vendor/chartist/css/chartist-custom.css" />
+        <option value="$PROJECT_DIR$/resources/views/tally/tally.twig" />
+        <option value="$PROJECT_DIR$/resources/views/voter/vote.twig" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/voter-basic.js" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/voter.js" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/vote-basic.js" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/common.js" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/candidate.js" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/vote.js" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/vote-fill.js" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/basic.js" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/tally.js" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/home.js" />
+        <option value="$PROJECT_DIR$/public/assets/css/voter.css" />
+        <option value="$PROJECT_DIR$/resources/views/voter/home.twig" />
+        <option value="$PROJECT_DIR$/app/Controllers/EA/BlockchainController.php" />
+        <option value="$PROJECT_DIR$/bootstrap/app.php" />
+        <option value="$PROJECT_DIR$/app/Controllers/RA/CandidateController.php" />
+        <option value="$PROJECT_DIR$/resources/views/ra/addCandidate.twig" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/ra-dashboard.js" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/ra-addCandidate.js" />
+        <option value="$PROJECT_DIR$/resources/views/templates/partials/navigation.twig" />
+        <option value="$PROJECT_DIR$/app/Controllers/EA/VoteAPIController.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/Controllers/RA/CandidateAPIController.php" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/ra-candidate.js" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/main.js" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/ea-vote.js" />
+        <option value="$PROJECT_DIR$/resources/views/ea/vote.twig" />
+        <option value="$PROJECT_DIR$/resources/views/ra/candidates.twig" />
+        <option value="$PROJECT_DIR$/resources/views/ea/addVote.twig" />
+        <option value="$PROJECT_DIR$/app/Controllers/Voter/PublicAPIController.php" />
+        <option value="$PROJECT_DIR$/app/Controllers/EA/BlockChainController.php" />
+        <option value="$PROJECT_DIR$/resources/views/ea/dashboard.twig" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/ea-dashboard.js" />
+        <option value="$PROJECT_DIR$/resources/views/templates/app.twig" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/vote-now.js" />
+        <option value="$PROJECT_DIR$/resources/views/ea/fee.twig" />
+        <option value="$PROJECT_DIR$/resources/views/ea/balance.twig" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/ea-balance.js" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/ea-fee.js" />
+        <option value="$PROJECT_DIR$/resources/views/templates/voter.twig" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/verify.js" />
+        <option value="$PROJECT_DIR$/app/Models/VoteList.php" />
+        <option value="$PROJECT_DIR$/resources/views/verify/home.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/slim/twig-view" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/vendor/slim/csrf" />
+      <path value="$PROJECT_DIR$/vendor/respect/validation" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/vendor/slim/flash" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/zeuxisoo/slim-whoops" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/bitcoin-php/bitcoin-ecdsa" />
+      <path value="$PROJECT_DIR$/vendor/asymmetricrypt/asymmetricrypt" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="727" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpUndefinedClassInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EA" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Voter" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitcoinjs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ea" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="verify" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="SearchEverywhereHistoryKey" value="update&#9;ACTION&#9;Vcs.UpdateProject&#10;JSEncryptRSAKey&#9;null&#9;null&#10;MODE_NEGATIVE&#9;null&#9;null&#10;codeavai&#9;null&#9;null&#10;UsernameAvailable&#9;null&#9;null&#10;UsernameAvailableException&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/blockvotes/app/Validation/Exceptions/UsernameAvailableException.php" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/verify" />
+      <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$/resources/views/ra" />
+      <recent name="$PROJECT_DIR$/public/assets/vendor" />
+      <recent name="$PROJECT_DIR$/app/Controllers/EA" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/img" />
+      <recent name="$PROJECT_DIR$/resources/views/ea" />
+      <recent name="$PROJECT_DIR$/app/Controllers/EA" />
+      <recent name="$PROJECT_DIR$/public/assets/css" />
+      <recent name="$PROJECT_DIR$/public/assets/scripts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53347f7c-aba9-40d1-bc70-383010269e22" name="Default" comment="" />
+      <created>1500302518665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1500302518665</updated>
+      <workItem from="1500302519927" duration="27182000" />
+      <workItem from="1500370796851" duration="809000" />
+      <workItem from="1500386675728" duration="3007000" />
+      <workItem from="1500466387165" duration="9829000" />
+      <workItem from="1500558598196" duration="265000" />
+      <workItem from="1500563335077" duration="189000" />
+      <workItem from="1500587391042" duration="2006000" />
+      <workItem from="1500600237746" duration="69000" />
+      <workItem from="1500600667248" duration="628000" />
+      <workItem from="1500863674640" duration="622000" />
+      <workItem from="1501103907885" duration="86000" />
+      <workItem from="1501192615302" duration="100000" />
+      <workItem from="1501194029912" duration="1014000" />
+      <workItem from="1501206966395" duration="82000" />
+      <workItem from="1501260133896" duration="20255000" />
+      <workItem from="1501306714095" duration="1496000" />
+      <workItem from="1501312789849" duration="3112000" />
+      <workItem from="1501339190929" duration="661000" />
+      <workItem from="1501353241900" duration="417000" />
+      <workItem from="1501353746821" duration="3661000" />
+      <workItem from="1501366626300" duration="12110000" />
+      <workItem from="1501428597744" duration="12787000" />
+      <workItem from="1501511807642" duration="16763000" />
+      <workItem from="1501558636191" duration="12284000" />
+      <workItem from="1501621245550" duration="12983000" />
+      <workItem from="1501698786540" duration="11048000" />
+      <workItem from="1501829555406" duration="32000" />
+      <workItem from="1501859110703" duration="1412000" />
+      <workItem from="1501881113443" duration="829000" />
+      <workItem from="1501944095619" duration="13072000" />
+      <workItem from="1502099375237" duration="5797000" />
+      <workItem from="1502154460793" duration="257000" />
+      <workItem from="1502154907521" duration="15213000" />
+      <workItem from="1502280755680" duration="10561000" />
+      <workItem from="1502406662696" duration="491000" />
+      <workItem from="1502407209842" duration="21051000" />
+      <workItem from="1502561793599" duration="85391000" />
+      <workItem from="1502896637512" duration="275000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update ReadMe">
+      <created>1500588384745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500588384745</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新设计模式">
+      <created>1501305491984</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1501305491984</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge branch 'master' of https://github.com/yfgeek/BlockVotes&#10;&#10;# Conflicts:&#10;#&#9;vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php">
+      <created>1501312839535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1501312839535</updated>
+    </task>
+    <task id="LOCAL-00004" summary="完善投票功能，前端后端代码持续集成">
+      <created>1501563748780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1501563748780</updated>
+    </task>
+    <task id="LOCAL-00005" summary="添加 testnet 比特币地址生成 功能">
+      <created>1501813340361</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1501813340361</updated>
+    </task>
+    <task id="LOCAL-00006" summary="可以把比sig和投票人发布到区块链上了">
+      <created>1502248293762</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1502248293762</updated>
+    </task>
+    <task id="LOCAL-00007" summary="增加候选人功能，修改，删除。">
+      <created>1502575542148</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1502575542148</updated>
+    </task>
+    <task id="LOCAL-00008" summary="增加验证界面，验证页面拥有验证功能，计票界面">
+      <created>1502677319840</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1502677319840</updated>
+    </task>
+    <task id="LOCAL-00009" summary="完成计票功能，更换了计票API">
+      <created>1502696789208</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1502696789208</updated>
+    </task>
+    <task id="LOCAL-00010" summary="分离js 修复大量bug 增加新的页面 增加对候选者的CRUD">
+      <created>1502820092987</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1502820092987</updated>
+    </task>
+    <task id="LOCAL-00011" summary="完成批量分发选票资金部分，完成95%">
+      <created>1502859742890</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1502859742890</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="307846000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1280" height="727" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1984375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update ReadMe" />
+    <MESSAGE value="更新设计模式" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/yfgeek/BlockVotes&#10;&#10;# Conflicts:&#10;#&#9;vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php" />
+    <MESSAGE value="完善投票功能，前端后端代码持续集成" />
+    <MESSAGE value="添加 testnet 比特币地址生成 功能" />
+    <MESSAGE value="可以把比sig和投票人发布到区块链上了" />
+    <MESSAGE value="增加候选人功能，修改，删除。" />
+    <MESSAGE value="增加验证界面，验证页面拥有验证功能，计票界面" />
+    <MESSAGE value="完成计票功能，更换了计票API" />
+    <MESSAGE value="分离js 修复大量bug 增加新的页面 增加对候选者的CRUD" />
+    <MESSAGE value="完成批量分发选票资金部分，完成95%" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成批量分发选票资金部分，完成95%" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Validation/Validator.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/assets/vendor/jsencrypt/jsencrypt.min.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP//Applications/XAMPP/xamppfiles/htdocs/blockvotes">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="981.9999999999999" y="840.0">\App\Controllers\Voter\PublicAPIController</node>
+            <node x="643.0" y="1087.0">$PROJECT_DIR$/app/Validation/Rules</node>
+            <node x="510.9999999999999" y="840.0">\App\Controllers\RA\CandidateController</node>
+            <node x="229.0" y="395.0">\App\Validation\Exceptions\MatchesPasswordException</node>
+            <node x="129.00000000000003" y="469.0">\Illuminate\Contracts\Support\Arrayable</node>
+            <node x="251.50000000000003" y="647.0">\app\Models\Code</node>
+            <node x="454.0" y="395.0">\App\Validation\Exceptions\CodeAvailableException</node>
+            <node x="753.0" y="1087.0">\App\Auth\Auth</node>
+            <node x="1812.0" y="840.0">\App\Controllers\Auth\PasswordController</node>
+            <node x="627.0" y="1013.0">\App\Middleware\RAMiddleware</node>
+            <node x="330.0" y="237.0">\InvalidArgumentException</node>
+            <node x="335.5" y="647.0">\app\Models\Key</node>
+            <node x="834.9999999999999" y="840.0">\app\Controllers\Voter\VoterController</node>
+            <node x="194.9999999999999" y="840.0">\App\Controllers\RA\BallotAPIController</node>
+            <node x="406.0" y="1087.0">$PROJECT_DIR$/vendor</node>
+            <node x="562.25" y="914.0">\App\Middleware\Middleware</node>
+            <node x="410.5" y="647.0">\App\Models\UserVote</node>
+            <node x="765.0" y="1013.0">\App\Middleware\ValidationErrorsMiddleware</node>
+            <node x="685.9999999999999" y="840.0">\App\Controllers\HomeController</node>
+            <node x="985.0" y="1013.0">\App\Middleware\AuthMiddleware</node>
+            <node x="362.9999999999999" y="840.0">\app\Controllers\RA\BallotController</node>
+            <node x="472.0" y="1013.0">\App\Middleware\VoterMiddleware</node>
+            <node x="363.0" y="469.0">\Illuminate\Contracts\Queue\QueueableEntity</node>
+            <node x="1334.0" y="840.0">\app\Controllers\EA\VoteController</node>
+            <node x="378.5" y="0.0">\Throwable</node>
+            <node x="30.5" y="647.0">\App\Models\VoteList</node>
+            <node x="0.0" y="1013.0">\App\Middleware\EAMiddleware</node>
+            <node x="1152.0" y="840.0">\app\Controllers\EA\BlockChainController</node>
+            <node x="0.0" y="1161.0">$PROJECT_DIR$/doc</node>
+            <node x="1985.0" y="840.0">\App\Controllers\Auth\AuthController</node>
+            <node x="138.0" y="1013.0">\App\Middleware\GuestMiddleware</node>
+            <node x="601.5" y="647.0">\App\Models\Candidate</node>
+            <node x="254.5" y="316.0">\Respect\Validation\Exceptions\ValidationException</node>
+            <node x="1136.0" y="1013.0">\App\Middleware\OldInputMiddleware</node>
+            <node x="860.0" y="1087.0">$PROJECT_DIR$/tests/unit</node>
+            <node x="239.00000000000003" y="469.0">\Illuminate\Contracts\Routing\UrlRoutable</node>
+            <node x="0.0" y="1087.0">$PROJECT_DIR$/resources/views/templates</node>
+            <node x="623.0" y="469.0">\JsonSerializable</node>
+            <node x="520.5" y="647.0">\App\Models\User</node>
+            <node x="0.0" y="395.0">\App\Validation\Exceptions\UsernameAvailableException</node>
+            <node x="516.0" y="469.0">\Illuminate\Contracts\Support\Jsonable</node>
+            <node x="137.0" y="1087.0">$PROJECT_DIR$/resources/views/auth/password</node>
+            <node x="0.0" y="469.0">\ArrayAccess</node>
+            <node x="1638.0" y="840.0">\App\Controllers\EA\EASettingController</node>
+            <node x="274.0" y="1087.0">\App\Validation\Validator</node>
+            <node x="163.0" y="237.0">\Respect\Validation\Exceptions\ExceptionInterface</node>
+            <node x="1476.0" y="840.0">\App\Controllers\EA\VoteAPIController</node>
+            <node x="331.83928571428567" y="558.0">\Illuminate\Database\Eloquent\Model</node>
+            <node x="380.0" y="79.0">\Exception</node>
+            <node x="133.50000000000003" y="647.0">\App\Models\Signatures</node>
+            <node x="1010.4999999999999" y="721.0">\App\Controllers\Controller</node>
+            <node x="363.5" y="158.0">\LogicException</node>
+            <node x="0.0" y="840.0">\app\Controllers\RA\CandidateAPIController</node>
+            <node x="296.0" y="1013.0">\App\Middleware\CsrfViewMiddleware</node>
+            <node x="526.0" y="1087.0">$PROJECT_DIR$/public/assets</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\app\Controllers\RA\CandidateAPIController" target="\App\Controllers\Controller">
+              <point x="0.0" y="-14.5" />
+              <point x="87.5" y="770.0" />
+              <point x="1014.076923076923" y="770.0" />
+              <point x="-42.923076923076906" y="14.5" />
+            </edge>
+            <edge source="\App\Middleware\OldInputMiddleware" target="\App\Middleware\Middleware">
+              <point x="0.0" y="-14.5" />
+              <point x="1213.0" y="963.0" />
+              <point x="656.9375" y="963.0" />
+              <point x="44.1875" y="14.5" />
+            </edge>
+            <edge source="\app\Controllers\RA\BallotController" target="\App\Controllers\Controller">
+              <point x="0.0" y="-14.5" />
+              <point x="426.9999999999999" y="790.0" />
+              <point x="1028.3846153846152" y="790.0" />
+              <point x="-28.615384615384528" y="14.5" />
+            </edge>
+            <edge source="\App\Models\Signatures" target="\Illuminate\Database\Eloquent\Model">
+              <point x="0.0" y="-14.5" />
+              <point x="182.50000000000003" y="617.0" />
+              <point x="346.625" y="617.0" />
+              <point x="-19.714285714285722" y="14.5" />
+            </edge>
+            <edge source="\app\Models\Key" target="\Illuminate\Database\Eloquent\Model">
+              <point x="0.0" y="-14.5" />
+              <point x="363.0" y="627.0" />
+              <point x="366.33928571428567" y="627.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\LogicException" target="\Exception">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\App\Controllers\Auth\AuthController" target="\App\Controllers\Controller">
+              <point x="0.0" y="-14.5" />
+              <point x="2046.5" y="770.0" />
+              <point x="1099.9230769230767" y="770.0" />
+              <point x="42.923076923076906" y="14.5" />
+            </edge>
+            <edge source="\App\Controllers\EA\EASettingController" target="\App\Controllers\Controller">
+              <point x="0.0" y="-14.5" />
+              <point x="1715.0" y="790.0" />
+              <point x="1085.6153846153843" y="790.0" />
+              <point x="28.615384615384528" y="14.5" />
+            </edge>
+            <edge source="\App\Validation\Exceptions\CodeAvailableException" target="\Respect\Validation\Exceptions\ValidationException">
+              <point x="0.0" y="-14.5" />
+              <point x="543.5" y="370.0" />
+              <point x="382.83333333333337" y="370.0" />
+              <point x="51.33333333333337" y="14.5" />
+            </edge>
+            <edge source="\App\Validation\Exceptions\MatchesPasswordException" target="\Respect\Validation\Exceptions\ValidationException">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\App\Middleware\AuthMiddleware" target="\App\Middleware\Middleware">
+              <point x="0.0" y="-14.5" />
+              <point x="1050.5" y="973.0" />
+              <point x="644.3125" y="973.0" />
+              <point x="31.5625" y="14.5" />
+            </edge>
+            <edge source="\App\Middleware\EAMiddleware" target="\App\Middleware\Middleware">
+              <point x="0.0" y="-14.5" />
+              <point x="59.0" y="963.0" />
+              <point x="568.5625" y="963.0" />
+              <point x="-44.1875" y="14.5" />
+            </edge>
+            <edge source="\app\Controllers\EA\BlockChainController" target="\App\Controllers\Controller">
+              <point x="0.0" y="-14.5" />
+              <point x="1233.0" y="820.0" />
+              <point x="1064.1538461538462" y="820.0" />
+              <point x="7.153846153846189" y="14.5" />
+            </edge>
+            <edge source="\app\Controllers\Voter\VoterController" target="\App\Controllers\Controller">
+              <point x="0.0" y="-14.5" />
+              <point x="898.4999999999999" y="820.0" />
+              <point x="1049.8461538461538" y="820.0" />
+              <point x="-7.153846153846189" y="14.5" />
+            </edge>
+            <edge source="\App\Controllers\Auth\PasswordController" target="\App\Controllers\Controller">
+              <point x="0.0" y="-14.5" />
+              <point x="1888.5" y="780.0" />
+              <point x="1092.7692307692305" y="780.0" />
+              <point x="35.76923076923072" y="14.5" />
+            </edge>
+            <edge source="\App\Controllers\Voter\PublicAPIController" target="\App\Controllers\Controller">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\Respect\Validation\Exceptions\ValidationException" target="\Respect\Validation\Exceptions\ExceptionInterface">
+              <point x="-38.5" y="-14.5" />
+              <point x="293.0" y="291.0" />
+              <point x="236.5" y="291.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\App\Controllers\RA\BallotAPIController" target="\App\Controllers\Controller">
+              <point x="0.0" y="-14.5" />
+              <point x="268.9999999999999" y="780.0" />
+              <point x="1021.2307692307692" y="780.0" />
+              <point x="-35.76923076923072" y="14.5" />
+            </edge>
+            <edge source="\App\Middleware\ValidationErrorsMiddleware" target="\App\Middleware\Middleware">
+              <point x="0.0" y="-14.5" />
+              <point x="865.0" y="983.0" />
+              <point x="631.6875" y="983.0" />
+              <point x="18.9375" y="14.5" />
+            </edge>
+            <edge source="\App\Models\User" target="\Illuminate\Database\Eloquent\Model">
+              <point x="0.0" y="-14.5" />
+              <point x="551.0" y="617.0" />
+              <point x="386.05357142857144" y="617.0" />
+              <point x="19.714285714285722" y="14.5" />
+            </edge>
+            <edge source="\InvalidArgumentException" target="\LogicException">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\App\Middleware\VoterMiddleware" target="\App\Middleware\Middleware">
+              <point x="0.0" y="-14.5" />
+              <point x="539.5" y="993.0" />
+              <point x="606.4375" y="993.0" />
+              <point x="-6.3125" y="14.5" />
+            </edge>
+            <edge source="\App\Middleware\CsrfViewMiddleware" target="\App\Middleware\Middleware">
+              <point x="0.0" y="-14.5" />
+              <point x="374.0" y="983.0" />
+              <point x="593.8125" y="983.0" />
+              <point x="-18.9375" y="14.5" />
+            </edge>
+            <edge source="\App\Models\Candidate" target="\Illuminate\Database\Eloquent\Model">
+              <point x="0.0" y="-14.5" />
+              <point x="648.5" y="607.0" />
+              <point x="395.9107142857142" y="607.0" />
+              <point x="29.571428571428555" y="14.5" />
+            </edge>
+            <edge source="\Illuminate\Database\Eloquent\Model" target="\Illuminate\Contracts\Support\Arrayable">
+              <point x="-17.25" y="-14.5" />
+              <point x="349.08928571428567" y="528.0" />
+              <point x="174.00000000000003" y="528.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\Illuminate\Database\Eloquent\Model" target="\Illuminate\Contracts\Routing\UrlRoutable">
+              <point x="-5.75" y="-14.5" />
+              <point x="360.58928571428567" y="518.0" />
+              <point x="291.0" y="518.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\App\Middleware\GuestMiddleware" target="\App\Middleware\Middleware">
+              <point x="0.0" y="-14.5" />
+              <point x="207.0" y="973.0" />
+              <point x="581.1875" y="973.0" />
+              <point x="-31.5625" y="14.5" />
+            </edge>
+            <edge source="\App\Middleware\RAMiddleware" target="\App\Middleware\Middleware">
+              <point x="0.0" y="-14.5" />
+              <point x="686.0" y="993.0" />
+              <point x="619.0625" y="993.0" />
+              <point x="6.3125" y="14.5" />
+            </edge>
+            <edge source="\Illuminate\Database\Eloquent\Model" target="\Illuminate\Contracts\Queue\QueueableEntity">
+              <point x="5.75" y="-14.5" />
+              <point x="372.08928571428567" y="518.0" />
+              <point x="429.5" y="518.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\App\Models\VoteList" target="\Illuminate\Database\Eloquent\Model">
+              <point x="0.0" y="-14.5" />
+              <point x="72.0" y="607.0" />
+              <point x="336.7678571428571" y="607.0" />
+              <point x="-29.571428571428555" y="14.5" />
+            </edge>
+            <edge source="\app\Controllers\EA\VoteController" target="\App\Controllers\Controller">
+              <point x="0.0" y="-14.5" />
+              <point x="1395.0" y="810.0" />
+              <point x="1071.3076923076924" y="810.0" />
+              <point x="14.307692307692378" y="14.5" />
+            </edge>
+            <edge source="\App\Models\UserVote" target="\Illuminate\Database\Eloquent\Model">
+              <point x="0.0" y="-14.5" />
+              <point x="455.5" y="627.0" />
+              <point x="376.19642857142856" y="627.0" />
+              <point x="9.857142857142833" y="14.5" />
+            </edge>
+            <edge source="\Illuminate\Database\Eloquent\Model" target="\ArrayAccess">
+              <point x="-28.75" y="-14.5" />
+              <point x="337.58928571428567" y="538.0" />
+              <point x="54.5" y="538.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\Illuminate\Database\Eloquent\Model" target="\Illuminate\Contracts\Support\Jsonable">
+              <point x="17.25" y="-14.5" />
+              <point x="383.58928571428567" y="528.0" />
+              <point x="559.5" y="528.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\Respect\Validation\Exceptions\ValidationException" target="\InvalidArgumentException">
+              <point x="38.5" y="-14.5" />
+              <point x="370.0" y="291.0" />
+              <point x="426.5" y="291.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\Illuminate\Database\Eloquent\Model" target="\JsonSerializable">
+              <point x="28.75" y="-14.5" />
+              <point x="395.08928571428567" y="538.0" />
+              <point x="688.0" y="538.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\App\Validation\Exceptions\UsernameAvailableException" target="\Respect\Validation\Exceptions\ValidationException">
+              <point x="0.0" y="-14.5" />
+              <point x="104.5" y="370.0" />
+              <point x="280.1666666666667" y="370.0" />
+              <point x="-51.333333333333314" y="14.5" />
+            </edge>
+            <edge source="\Exception" target="\Throwable">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\App\Controllers\RA\CandidateController" target="\App\Controllers\Controller">
+              <point x="0.0" y="-14.5" />
+              <point x="588.4999999999999" y="800.0" />
+              <point x="1035.5384615384614" y="800.0" />
+              <point x="-21.461538461538566" y="14.5" />
+            </edge>
+            <edge source="\App\Controllers\HomeController" target="\App\Controllers\Controller">
+              <point x="0.0" y="-14.5" />
+              <point x="750.4999999999999" y="810.0" />
+              <point x="1042.6923076923076" y="810.0" />
+              <point x="-14.307692307692378" y="14.5" />
+            </edge>
+            <edge source="\app\Models\Code" target="\Illuminate\Database\Eloquent\Model">
+              <point x="0.0" y="-14.5" />
+              <point x="283.5" y="627.0" />
+              <point x="356.4821428571428" y="627.0" />
+              <point x="-9.85714285714289" y="14.5" />
+            </edge>
+            <edge source="\App\Controllers\EA\VoteAPIController" target="\App\Controllers\Controller">
+              <point x="0.0" y="-14.5" />
+              <point x="1547.0" y="800.0" />
+              <point x="1078.4615384615386" y="800.0" />
+              <point x="21.461538461538566" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="544.0" y="503.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/candidate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ra/addVoter.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="30" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="45" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/templates/partials/navigation.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="50" column="48" lean-forward="true" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/ra-dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/ra-addCandidate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Candidate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/RA/CandidateAPIController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="69" column="24" lean-forward="false" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="91" lean-forward="false" selection-start-line="69" selection-start-column="91" selection-end-line="69" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ra/dashboard.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ra/addCandidate.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ea/addVote.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="34" column="86" lean-forward="false" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="76" lean-forward="true" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/RA/BallotAPIController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/RA/BallotController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/RA/CandidateController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/ra-candidate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ra/candidates.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ea/setting.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ea/dashboard.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="69" column="54" lean-forward="true" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/EA/VoteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/ea-dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/verify/verify.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/vendor/ring-signature/sha1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1927">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/ea-vote.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/vote.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ea/detail.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="135" column="31" lean-forward="false" selection-start-line="135" selection-start-column="31" selection-end-line="135" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ea/fee.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="74" column="53" lean-forward="true" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ea/balance.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/ea-balance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/ea-fee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="96" column="27" lean-forward="false" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/vote-now.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="138" column="0" lean-forward="true" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/Voter/PublicAPIController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/VoteList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ea/vote.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-426">
+          <caret line="72" column="76" lean-forward="false" selection-start-line="72" selection-start-column="76" selection-end-line="72" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/templates/app.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="13" lean-forward="false" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/Voter/VoterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="139" column="25" lean-forward="false" selection-start-line="139" selection-start-column="25" selection-end-line="139" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/templates/public.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/templates/voter.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="108" column="52" lean-forward="false" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/verify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/verify/home.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="82" lean-forward="false" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/EA/BlockChainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="e#38#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/EA/EASettingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/EA/VoteAPIController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="120" column="1" lean-forward="true" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
