@@ -26,12 +26,15 @@ function refreshVoting() {
             for(var i=0; i<item.length;i++){
                 (function(i){
                     setTimeout(function(){
+                        if(i == item.length - 1 ){
+                            $(".tally-status").html('Done, the result is as follows');
+                        }else{
+                            $(".tally-status").html('Tallying and verifying No.' + i + ' transaction.');
+                        }
                         updateCandidate(item[i].outputs[0].script_pub_key.hex);
                     },i*200);
                 })(i);
-
             }
-
         }
     });
 }

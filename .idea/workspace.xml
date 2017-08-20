@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53347f7c-aba9-40d1-bc70-383010269e22" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/main.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/login-3bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/login-b3g.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/logo-dark的副本.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/user-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/user2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/user3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/user4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/user5.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auth/Auth.php" afterPath="$PROJECT_DIR$/app/Auth/Auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controllers/Auth/AuthController.php" afterPath="$PROJECT_DIR$/app/Controllers/Auth/AuthController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controllers/Auth/PasswordController.php" afterPath="$PROJECT_DIR$/app/Controllers/Auth/PasswordController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controllers/EA/BlockChainController.php" afterPath="$PROJECT_DIR$/app/Controllers/EA/BlockChainController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controllers/EA/EASettingController.php" afterPath="$PROJECT_DIR$/app/Controllers/EA/EASettingController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controllers/EA/VoteAPIController.php" afterPath="$PROJECT_DIR$/app/Controllers/EA/VoteAPIController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controllers/EA/VoteController.php" afterPath="$PROJECT_DIR$/app/Controllers/EA/VoteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controllers/RA/BallotAPIController.php" afterPath="$PROJECT_DIR$/app/Controllers/RA/BallotAPIController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controllers/Voter/PublicAPIController.php" afterPath="$PROJECT_DIR$/app/Controllers/Voter/PublicAPIController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/main.css" afterPath="$PROJECT_DIR$/public/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/scripts/ea-balance.js" afterPath="$PROJECT_DIR$/public/assets/scripts/ea-balance.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/scripts/ea-fee.js" afterPath="$PROJECT_DIR$/public/assets/scripts/ea-fee.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/scripts/tally.js" afterPath="$PROJECT_DIR$/public/assets/scripts/tally.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/scripts/verify.js" afterPath="$PROJECT_DIR$/public/assets/scripts/verify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/ea/fee.twig" afterPath="$PROJECT_DIR$/resources/views/ea/fee.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/templates/partials/header.twig" afterPath="$PROJECT_DIR$/resources/views/templates/partials/header.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/templates/voter.twig" afterPath="$PROJECT_DIR$/resources/views/templates/voter.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/tally/tally.twig" afterPath="$PROJECT_DIR$/resources/views/tally/tally.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tally.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tally.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/assets/scripts/tally.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="224">
+              <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -107,6 +82,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="tally.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/tally/tally.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="101" lean-forward="false" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ea-balance.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/scripts/ea-balance.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,17 +112,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/templates/app.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="89" column="13" lean-forward="false" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fee.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fee.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/ea/fee.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="586">
@@ -222,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/assets/scripts/voter-basic.js" />
         <option value="$PROJECT_DIR$/public/assets/scripts/voter.js" />
         <option value="$PROJECT_DIR$/public/assets/scripts/vote-basic.js" />
         <option value="$PROJECT_DIR$/public/assets/scripts/common.js" />
@@ -271,8 +245,9 @@
         <option value="$PROJECT_DIR$/resources/views/templates/partials/header.twig" />
         <option value="$PROJECT_DIR$/public/assets/scripts/verify.js" />
         <option value="$PROJECT_DIR$/resources/views/templates/voter.twig" />
-        <option value="$PROJECT_DIR$/public/assets/scripts/tally.js" />
         <option value="$PROJECT_DIR$/public/assets/scripts/ea-fee.js" />
+        <option value="$PROJECT_DIR$/resources/views/tally/tally.twig" />
+        <option value="$PROJECT_DIR$/public/assets/scripts/tally.js" />
       </list>
     </option>
   </component>
@@ -504,29 +479,7 @@
               <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="verify" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blockvotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blockvotes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="voter" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tally" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -697,7 +650,7 @@
       <workItem from="1503062028154" duration="195000" />
       <workItem from="1503066446181" duration="144000" />
       <workItem from="1503189747925" duration="2526000" />
-      <workItem from="1503246571970" duration="8149000" />
+      <workItem from="1503246571970" duration="8562000" />
     </task>
     <task id="LOCAL-00001" summary="Update ReadMe">
       <created>1500588384745</created>
@@ -776,11 +729,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502859742890</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="增加注释，修复计票bug，增加单独支付选资">
+      <created>1503265969307</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1503265969308</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321305000" />
+    <option name="totallyTimeSpent" value="321718000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -832,7 +792,8 @@
     <MESSAGE value="完成计票功能，更换了计票API" />
     <MESSAGE value="分离js 修复大量bug 增加新的页面 增加对候选者的CRUD" />
     <MESSAGE value="完成批量分发选票资金部分，完成95%" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成批量分发选票资金部分，完成95%" />
+    <MESSAGE value="增加注释，修复计票bug，增加单独支付选资" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加注释，修复计票bug，增加单独支付选资" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -853,13 +814,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/ea/dashboard.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="69" column="54" lean-forward="true" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/scripts/ea-dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -927,6 +881,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26430">
           <caret line="1762" column="0" lean-forward="false" selection-start-line="1762" selection-start-column="0" selection-end-line="1762" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1176,26 +1131,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/verify/verify.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/scripts/verify.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="24" column="74" lean-forward="false" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/scripts/tally.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1236,6 +1175,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="586">
           <caret line="74" column="53" lean-forward="true" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/verify/verify.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tally/tally.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="101" lean-forward="false" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scripts/tally.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
           <folding />
         </state>
       </provider>
