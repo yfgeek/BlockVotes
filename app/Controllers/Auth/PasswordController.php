@@ -6,7 +6,12 @@ use App\Models\User;
 use App\Controllers\Controller;
 use Respect\Validation\Validator as v;
 
-
+/**
+ * Class PasswordController
+ * @author  Yifan Wu
+ * The Password Controller to show the page of sign in or sign out
+ * @package Controllers\Auth
+ */
 class PasswordController extends Controller
 {
     /**

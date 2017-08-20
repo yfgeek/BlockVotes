@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Auth;
 
 use App\Models\User;
@@ -7,6 +6,7 @@ use App\Models\Code;
 
 /**
  * Class Auth
+ * @author  Yifan Wu
  * The container includes this when EA or RA login or try to login or logout
  * @package App\Auth
  */

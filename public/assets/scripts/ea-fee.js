@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 function loadBlockchain(id){
     var data = { item_id: id};
-    $.getJSON("/api/bitcoinaddress",data,function(result){
+    $.getJSON("/api/allbitcoinaddress",data,function(result){
         if(result.success ==='1'){
             var str ='';
             txaddress = [];
@@ -52,9 +52,12 @@ function loadBlockchain(id){
                     txaddress.push(item.bitcoin_address);
                     txid.push(item.id);
                 }
+                var paySingle = '<td><button type="button" class="btn btn-single-pay btn-info btn-pay-' + item.id +  '" data-toggle="modal"  onclick="singlepay('
+                    + item.id + ',\'' +  item.bitcoin_address +'\')">Pay</button></td>';
                 str +='<tr><td>' + item.id + '</td>' +
                     '<td>' + item.bitcoin_address + '</td>' +
-                    '<td><span class="status-'+ item.id+'"> </td></tr>' ;
+                    '<td><span class="status-'+ item.id+'"></td>'+
+                    paySingle + '</tr>' ;
             });
             $(".table-fee").html(str);
         }
@@ -132,24 +135,41 @@ function makeTransaction(itemid,address,pbhash){
 
             var txRaw = txb.build();
             var txHex = txRaw.toHex();
-
             console.log('hex',txHex);
             postdata = { tx_hex : txHex };
-            postTransaction(itemid);
+            postTransaction(itemid,postdata);
         });
+        return true;
     }
 
 }
 
-function postTransaction(itemid){
+function postTransaction(itemid,postdata){
     $.post("https://chain.so/api/v2/send_tx/BTCTEST/",postdata,function(result){
-        if(result.status ==="fail"){
-            setTimeout(function(){
-                makeTransaction(postTransaction());
-            },5000);
-        }else{
+        if(result.status ==="success"){
             $(".status-"+ itemid ).html(result.data.txid);
-            lock = false;
         }
+        lock = false;
     });
+}
+function singlepay(itemid,address){
+    swal({
+            title: "OP_RETURN",
+            text: "Write the OP_RETURN code, normally the hash of the public key",
+            type: "input",
+            showCancelButton: true,
+            closeOnConfirm: false,
+            animation: "slide-from-top",
+            inputPlaceholder: ""
+        },
+        function(inputValue){
+            wif = $('.bitcoin-wif').val();
+            network = Bitcoin.networks.testnet;
+            keyPair = Bitcoin.ECPair.fromWIF(wif,network);
+            bitcoinAddress = keyPair.getAddress();
+            lock = false;
+            if(makeTransaction(itemid,address,inputValue)){
+                swal("Good job!","Success","success")
+            }
+        });
 }

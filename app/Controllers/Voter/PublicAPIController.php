@@ -25,7 +25,7 @@ class PublicAPIController extends Controller
     }
 
     /**
-     * Get unused public key
+     * Get unused bitcoin address
      * @param $request
      * @param $response
      * @return mixed
@@ -40,6 +40,24 @@ class PublicAPIController extends Controller
 
         }
     }
+
+    /**
+     * Get all bitcoin address
+     * @param $request
+     * @param $response
+     * @return mixed
+     */
+    public function getAllBitcoinAddress($request, $response){
+        $id =  $request->getParam('item_id');
+        $data = Key::select('id','bitcoin_address','is_paid')->where('used_for',$id)->get();
+        if($data){
+            return $this->generateJson($response, '1',$data, $data->count());
+        }else{
+            return $this->generateJson($response, '0',["content" => 'Failed']);
+
+        }
+    }
+
 
     /**
      * @param $request

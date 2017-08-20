@@ -5,7 +5,13 @@ use App\Controllers\Controller;
 use App\Models\Key;
 use App\Models\VoteList;
 
-
+/**
+ * Class VoteAPIController
+ * @author  Yifan Wu
+ * @api for ea
+ * The Vote API Controller to start/stop a vote item or set the profile of a vote item
+ * @package Controllers\EA
+ */
 class VoteAPIController extends Controller
 {
     /**

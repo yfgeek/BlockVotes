@@ -14,18 +14,24 @@ $(document).ready(function() {
     data.labels = [];
     data.series = [];
     data.id = [];
+    keys = [];
+    verifyPubKeys();
 
 });
 
 function refreshVoting() {
-    $.getJSON("https://testnet-api.smartbit.com.au/v1/blockchain/addr/n4Kc1AwFos3aZRvD3Tc9imzeMeA8E9DEUr", function (result) {
+    $.getJSON("https://testnet-api.smartbit.com.au/v1/blockchain/addr/n4Kc1AwFos3aZRvD3Tc9imzeMeA8E9DEUr?limit=1000", function (result) {
         if (result.success === true) {
             var item =  result.address.transactions;
             for(var i=0; i<item.length;i++){
-                updateCandidate(item[i].outputs[0].script_pub_key.hex);
+                (function(i){
+                    setTimeout(function(){
+                        updateCandidate(item[i].outputs[0].script_pub_key.hex);
+                    },i*200);
+                })(i);
+
             }
-            char.update(data);
-            barchart.update(data);
+
         }
     });
 }
@@ -35,18 +41,44 @@ function updateCandidate(hex) {
             // due to different API
             var candidateid = Number(item.substring(42,45));
             var voteid = Number(item.substring(45,48));
-            if(candidateid && voteid === Number($(".item_id").val())){
-                    for(var i = 0; i<data.id.length;i++){
-                        if(data.id[i] === candidateid){
-                            data.series[i] += 1;
-                            console.log("candidate: " + candidateid + ' id:' + voteid);
-                            $(".candidate-vote-"+candidateid).html(data.series[i]);
+            var hashid = item.substring(2,42);
+            console.log(hashid);
+            $.getJSON("/api/sighash",{hash : hashid},function (result) {
+                if(result.success === '1') {
+                    var sig = JSON.parse(result.content.sig_msg);
+                    if((keys_match(sig, keys)) &&  verify(candidateid+"", sig)){
+                        if(candidateid && voteid === Number($(".item_id").val())){
+                            for(var i = 0; i<data.id.length;i++){
+                                if(data.id[i] === candidateid){
+                                    data.series[i] += 1;
+                                    console.log("candidate: " + candidateid + ' id:' + voteid);
+                                    $(".candidate-vote-"+candidateid).html(data.series[i]);
+                                }
 
+                            }
                         }
                     }
+                    char.update(data);
+                    barchart.update(data);
+                }
+
+            });
 
 
-            }
+}
+
+function verifyPubKeys() {
+    $.getJSON("/api/publickey",{"item_id": $(".item_id").val()},function(result){
+        if(result.success === '1'){
+            keys = [];
+            $.each( result.content, function( key, value ) {
+                keys.push(new JSEncryptRSAKey(value.public_key));
+            });
+        }else{
+            setTimeout(verifyPubKeys(), 3000);
+        }
+    });
+
 }
 
 function createChart() {

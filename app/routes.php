@@ -15,7 +15,6 @@ $app->get('/api/bitcoinaddress','PublicAPIController:getBitcoinAddress');
 $app->get('/api/publickey','PublicAPIController:getAllPubKeys');
 $app->get('/api/getcandidates','CandidateAPIController:getCandidates');
 $app->get('/api/sighash','PublicAPIController:getSigPair');
-
 $app->post('/api/sigpairs','PublicAPIController:postSigPair');
 
 
@@ -103,6 +102,7 @@ $app->group('',function () {
     $this->get('/api/togglevote','VoteAPIController:getToggleVoting');
     $this->get('/api/voteprofile','VoteAPIController:getProfile');
     $this->post('/api/updateprofile','VoteAPIController:postProfile');
+    $this->get('/api/allbitcoinaddress','PublicAPIController:getAllBitcoinAddress');
 
     $this->get('/ea/vote','VoteController:getVoteList')->setName('ea.vote');
     $this->get('/ea/addVote','VoteController:getAddVote')->setName('ea.addVote');

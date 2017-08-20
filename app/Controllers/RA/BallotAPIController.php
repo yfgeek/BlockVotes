@@ -8,7 +8,12 @@ use App\Models\VoteList;
 use App\Models\Key;
 use App\Models\Candidate;
 
-
+/**
+ * Class VoteController
+ * @author  Yifan Wu
+ * The Vote Controller to show the page of starting/stopping a vote item or setting the profile of a vote item
+ * @package Controllers\EA
+ */
 class BallotAPIController extends Controller
 {
 

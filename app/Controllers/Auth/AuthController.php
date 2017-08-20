@@ -10,7 +10,12 @@ use App\Models\Role;
 use App\Controllers\Controller;
 use Respect\Validation\Validator as v;
 
-
+/**
+ * Class AuthController
+ * @author  Yifan Wu
+ * The Auth Controller to show the page of sign in or sign out
+ * @package Controllers\Auth
+ */
 class AuthController extends Controller
 {
     /**

@@ -21,7 +21,7 @@ function loadBlockchain(id){
     var data = { item_id: id};
     txid =[];
     txaddress = [];
-    $.getJSON("/api/bitcoinaddress",data,function(result){
+    $.getJSON("/api/allbitcoinaddress",data,function(result){
         if(result.success ==='1'){
             var str ='';
             $(result.content).each(function (i,item) {
@@ -36,6 +36,7 @@ function loadBlockchain(id){
         }
     });
 }
+
 function loadBalance(id,address){
     $.getJSON("https://chain.so/api/v2/get_address_balance/BTCTEST/"+address,function(result){
         if(result.status === "success"){

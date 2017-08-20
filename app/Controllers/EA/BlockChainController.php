@@ -4,7 +4,12 @@ namespace app\Controllers\EA;
 
 use App\Controllers\Controller;
 use App\Models\VoteList;
-
+/**
+ * Class BlockChainController
+ * @author  Yifan Wu
+ * The BlockChain Controller to show the balance of the bitcoin addresses or pay the voting fees
+ * @package Controllers\EA
+ */
 class BlockChainController extends Controller
 {
 

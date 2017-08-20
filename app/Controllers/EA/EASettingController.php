@@ -6,7 +6,12 @@ namespace App\Controllers\EA;
 use App\Models\User;
 use App\Controllers\Controller;
 use Respect\Validation\Validator as v;
-
+/**
+ * Class EASettingController
+ * @author  Yifan Wu
+ * The EASetting Controller to show the page of setting in EA users
+ * @package Controllers\EA
+ */
 class EASettingController extends Controller
 {
     /**

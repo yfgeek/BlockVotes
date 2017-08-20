@@ -10,7 +10,12 @@ use App\Models\Code;
 
 use Respect\Validation\Validator as v;
 
-
+/**
+ * Class VoteController
+ * @author  Yifan Wu
+ * The Vote Controller to show the page of starting/stopping a vote item or setting the profile of a vote item
+ * @package Controllers\EA
+ */
 class VoteController extends Controller
 {
 

@@ -11,7 +11,8 @@ $(document).ready(function() {
        var btcid =  $(".input-blockchain-id").val();
         $.getJSON("https://chain.so/api/v2/tx/BTCTEST/"+btcid,function(result){
             var item =  hex2bin(result.data.outputs[0].script_asm.substr(10));
-            var hashid = item.substr(0,40);
+            console.log(item);
+            var hashid = item.substring(0,40);
             var candidateid = Number(item.substring(40,43));
             $(".hash-value-area").val(hashid);
             $(".vote-candidate").val(candidateid);

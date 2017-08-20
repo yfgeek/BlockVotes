@@ -38,9 +38,6 @@ footer {
       text-align: center;
       position: relative !important; } }
 
-/********************
- * LAYOUT
- ********************/
 #wrapper .sidebar {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -408,9 +405,6 @@ ul.notifications > li {
         .sidebar .nav .nav > li > a.active a {
           color: #fff; }
 
-/********************
- * TYPOGRAPHY
- ********************/
 .text-success {
   color: #41B314; }
 
@@ -425,9 +419,7 @@ ul.list-justify > li {
   ul.list-justify > li span {
     float: right; }
 
-/********************
- * INPUTS
- ********************/
+
 .form-control {
   -moz-box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.1);
@@ -547,9 +539,6 @@ ul.list-justify > li {
     .fancy-radio.custom-bgcolor-green input[type="radio"]:checked + span i:after {
       background-color: #fff; }
 
-/********************
- * BUTTONS
- ********************/
 .btn {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -601,9 +590,6 @@ fieldset[disabled] .btn {
   opacity: 0.4;
   filter: alpha(opacity=40); }
 
-/********************
- * PANELS
- ********************/
 .panel {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -746,7 +732,6 @@ ul.activity-list > li {
     position: absolute;
     right: 0; }
 
-/* bootstrap progress bar */
 .progress {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -844,7 +829,6 @@ ul.activity-list > li {
   .todo-list .controls a {
     margin-left: 5px; }
 
-/* toastr notification */
 #toast-container > div {
   opacity: 0.9;
   filter: alpha(opacity=90); }
@@ -878,7 +862,6 @@ ul.activity-list > li {
 .toast-danger {
   background-color: #F9354C; }
 
-/* tabs */
 .custom-tabs-line ul {
   display: inline-block;
   vertical-align: middle;
@@ -921,10 +904,6 @@ ul.activity-list > li {
 .tab-pane {
   padding: 25px 15px; }
 
-/********************
- * CHARTS
- ********************/
-/* easy pie chart */
 .easy-pie-chart {
   position: relative;
   width: 110px;
@@ -1090,9 +1069,6 @@ ul.activity-list > li {
       .auth-box.lockscreen {
         width: 90%; } }
 
-/********************
- * HELPERS
- ********************/
 .bg-success {
   background-color: #41B314; }
 
@@ -1117,9 +1093,6 @@ ul.activity-list > li {
 .padding-bottom-30 {
   padding-bottom: 30px !important; }
 
-/********************
- * PAGE: PROFILE
- ********************/
 .panel-profile {
   position: relative; }
 
