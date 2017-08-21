@@ -2,7 +2,11 @@
 
 namespace App\Middleware;
 
-
+/**
+ * Voter Middleware
+ * @author  Yifan Wu
+ * @package Middleware
+ */
 class VoterMiddleware extends Middleware
 {
     /**

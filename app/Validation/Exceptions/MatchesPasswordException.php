@@ -5,8 +5,10 @@ namespace App\Validation\Exceptions;
 
 use Respect\Validation\Exceptions\ValidationException;
 /**
-* 
-*/
+ * MatchesPasswordException
+ * @author  Yifan Wu
+ * @package Validation/Exceptions
+ */
 class MatchesPasswordException extends ValidationException
 {
 	

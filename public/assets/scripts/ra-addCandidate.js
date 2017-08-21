@@ -1,3 +1,7 @@
+/**
+ * RA: add candidate
+ * @author  Yifan Wu
+ */
 $(document).ready(function() {
     $(".btn-add-candidate").on('click', function() {
         var id = $(".vote-id").val();

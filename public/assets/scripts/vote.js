@@ -1,3 +1,7 @@
+/**
+ * Vote page
+ * @author  Yifan Wu
+ */
 $(document).ready(function() {
     // If in the vote page, load the bitcoin address
      getBitcoinAddress();

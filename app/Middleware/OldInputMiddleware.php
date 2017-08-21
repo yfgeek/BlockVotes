@@ -3,8 +3,10 @@
 namespace App\Middleware;
 
 /**
-* 
-*/
+ * Old input Middleware
+ * @author  Yifan Wu
+ * @package Middleware
+ */
 class OldInputMiddleware extends Middleware
 {
 	

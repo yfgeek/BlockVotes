@@ -9,10 +9,10 @@ use App\Models\Key;
 use App\Models\Candidate;
 
 /**
- * Class VoteController
+ * Class BallotAPIController
  * @author  Yifan Wu
- * The Vote Controller to show the page of starting/stopping a vote item or setting the profile of a vote item
- * @package Controllers\EA
+ * The Ballot API Controller to send an email to the voter
+ * @package Controllers\RA
  */
 class BallotAPIController extends Controller
 {

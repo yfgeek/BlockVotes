@@ -6,8 +6,10 @@ use Respect\Validation\Validator as Respect;
 use Respect\Validation\Exceptions\NestedValidationException;
 
 /**
-* 
-*/
+ * Validator
+ * @author  Yifan Wu
+ * @package Validation
+ */
 class Validator
 {
 	protected $errors;

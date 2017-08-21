@@ -1,7 +1,12 @@
 <?php
 
 namespace App\Controllers;
-
+/**
+ * Class Controller
+ * @author  Yifan Wu
+ * The Controller including the $container
+ * @package Controllers
+ */
 class Controller
 {
 	protected $container;

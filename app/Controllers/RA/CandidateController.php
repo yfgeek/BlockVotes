@@ -11,7 +11,12 @@ namespace App\Controllers\RA;
 use App\Controllers\Controller;
 use App\Models\VoteList;
 
-
+/**
+ * Class CandidateAPIController
+ * @author  Yifan Wu
+ * The Candidate Controller to add, get ,edit, delete candidate
+ * @package Controllers\RA
+ */
 class CandidateController extends Controller
 {
 

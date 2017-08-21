@@ -3,7 +3,11 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-
+/**
+ * VoteList Model
+ * @author  Yifan Wu
+ * @package Model
+ */
 class VoteList extends Model
 {
 

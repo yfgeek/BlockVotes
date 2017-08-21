@@ -3,7 +3,11 @@
 namespace App\Validation\Exceptions;
 
 use Respect\Validation\Exceptions\ValidationException;
-
+/**
+ * CodeAvailableException
+ * @author  Yifan Wu
+ * @package Validation/Exceptions
+ */
 class CodeAvailableException extends ValidationException
 {
     public static $defaultTemplates = [

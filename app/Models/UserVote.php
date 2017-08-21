@@ -3,7 +3,11 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-
+/**
+ * UserVote Model
+ * @author  Yifan Wu
+ * @package Model
+ */
 class UserVote extends Model
 {
 

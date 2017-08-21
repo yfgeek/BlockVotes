@@ -6,7 +6,12 @@ use App\Controllers\Controller;
 
 use App\Models\VoteList;
 
-
+/**
+ * Class VoterController
+ * @author  Yifan Wu
+ * The Voter Controller for voters to vote
+ * @package Controllers\Voter
+ */
 class VoterController extends Controller
 {
     /**

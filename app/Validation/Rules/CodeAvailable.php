@@ -4,7 +4,11 @@ namespace App\Validation\Rules;
 
 use App\Models\Code;
 use Respect\Validation\Rules\AbstractRule;
-
+/**
+ * CodeAvailable
+ * @author  Yifan Wu
+ * @package Validation/Rules
+ */
 class CodeAvailable extends AbstractRule
 
 {

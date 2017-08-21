@@ -3,8 +3,10 @@
 namespace App\Middleware;
 
 /**
-* 
-*/
+ * Guest Middleware
+ * @author  Yifan Wu
+ * @package Middleware
+ */
 class GuestMiddleware extends Middleware
 {
     /**

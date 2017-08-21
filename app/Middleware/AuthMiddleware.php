@@ -1,7 +1,11 @@
 <?php
 
 namespace App\Middleware;
-
+/**
+ * Auth Middleware
+ * @author  Yifan Wu
+ * @package Middleware
+ */
 class AuthMiddleware extends Middleware
 {
     /**

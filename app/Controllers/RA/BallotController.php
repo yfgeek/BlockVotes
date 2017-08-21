@@ -7,7 +7,12 @@ use App\Controllers\Controller;
 use App\Models\Code;
 use App\Models\VoteList;
 
-
+/**
+ * Class BallotController
+ * @author  Yifan Wu
+ * The Ballot Controller to add voter or get ballot
+ * @package Controllers\RA
+ */
 class BallotController extends Controller
 {
 

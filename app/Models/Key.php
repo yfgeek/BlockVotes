@@ -7,7 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 use BitcoinPHP\BitcoinECDSA\BitcoinECDSA;
 
 use AsymmetriCrypt\Crypter;
-
+/**
+ * Key Model
+ * @author  Yifan Wu
+ * @package Model
+ */
 class Key extends Model
 {
     protected $table = 'key';

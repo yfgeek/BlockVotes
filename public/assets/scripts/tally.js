@@ -1,3 +1,7 @@
+/**
+ * Tally page
+ * @author  Yifan Wu
+ */
 $(document).ready(function() {
     refreshVoting();
     // candidatevotes = [];

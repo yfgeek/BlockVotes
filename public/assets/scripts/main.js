@@ -1,3 +1,7 @@
+/**
+ * main.js
+ * @author  Yifan Wu
+ */
 $(document).ready(function() {
 
 

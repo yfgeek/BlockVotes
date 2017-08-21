@@ -1,3 +1,8 @@
+/**
+ * Basic.js
+ * @author  Yifan Wu
+ */
+
 function createAndDownloadFile(fileName, content) {
     var aTag = document.createElement('a');
     var blob = new Blob([content]);

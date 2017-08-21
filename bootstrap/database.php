@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * The database configure
+ * @author  Yifan Wu
+ */
 $capsule = new \Illuminate\Database\Capsule\Manager;
 
 $capsule->addConnection([

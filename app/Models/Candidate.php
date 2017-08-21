@@ -2,7 +2,11 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-
+/**
+ * Candidate Model
+ * @author  Yifan Wu
+ * @package Model
+ */
 class Candidate extends Model
 {
     protected $table = 'candidate';

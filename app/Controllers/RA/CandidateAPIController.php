@@ -6,10 +6,32 @@ namespace app\Controllers\RA;
 use App\Controllers\Controller;
 use App\Models\Candidate;
 
-
+/**
+ * Class CandidateAPIController
+ * @author  Yifan Wu
+ * The Candidate API Controller to add, get ,edit, delete candidate
+ * @package Controllers\RA
+ */
 class CandidateAPIController extends Controller
 {
-
+    /**
+     * A helper method to generate Json with the standard of following:
+     * {
+     *  "success" : "1",
+     *  "content" : {
+     *               "item1" : "xxx",
+     *               "item2" : "xxx",
+     *               "..."   : "..."
+     *              }
+     *  "param"   : ""
+     * }
+     *
+     * @param object $response transfer from the upper method to generate the Json by using withJson method
+     * @param string $success status of the result, 1: succeed , 0: failed
+     * @param object $message  can transfer an array or a string when javascript uses forEach to traversal
+     * @param null $param a additional value if needs
+     * @return as above
+     */
     public function generateJson($response, $success, $message, $param = null)
     {
         $return_message["success"] = $success;

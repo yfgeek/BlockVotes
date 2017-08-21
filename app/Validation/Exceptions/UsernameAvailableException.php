@@ -5,8 +5,10 @@ namespace App\Validation\Exceptions;
 
 use Respect\Validation\Exceptions\ValidationException;
 /**
-* 
-*/
+ * UsernameAvailableException
+ * @author  Yifan Wu
+ * @package Validation/Exceptions
+ */
 class UsernameAvailableException extends ValidationException
 {
 	

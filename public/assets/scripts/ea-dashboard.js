@@ -1,3 +1,7 @@
+/**
+ * EA Dashboard
+ * @author  Yifan Wu
+ */
 $(document).ready(function() {
     $.getJSON("https://chain.so/api/v2/get_address_balance/BTCTEST/"+$(".bitcoin-address").val(),function(result){
         if(result.status === "success"){

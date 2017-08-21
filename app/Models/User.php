@@ -3,7 +3,11 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-
+/**
+ * User Model
+ * @author  Yifan Wu
+ * @package Model
+ */
 class User extends Model
 {
 

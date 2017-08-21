@@ -1,3 +1,7 @@
+/**
+ * Common.js
+ * @author  Yifan Wu
+ */
 $(document).ready(function() {
 	$('.btn-toggle-fullwidth').on('click', function() {
 		if(!$('body').hasClass('layout-fullwidth')) {

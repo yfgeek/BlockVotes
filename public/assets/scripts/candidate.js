@@ -1,3 +1,7 @@
+/**
+ * Candidate.js
+ * @author  Yifan Wu
+ */
 $(document).ready(function() {
     $('body').delegate('.panel-candidate', 'click', function () {
         $(".panel-candidate").removeClass('selected');

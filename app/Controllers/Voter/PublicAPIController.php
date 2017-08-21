@@ -8,6 +8,12 @@ use App\Models\Key;
 use App\Models\Code;
 use Respect\Validation\Validator as v;
 
+/**
+ * Class PublicAPIController
+ * @author  Yifan Wu
+ * The Public API Controller for voters or anyone, ALL PUBLIC
+ * @package Controllers\Voter
+ */
 class PublicAPIController extends Controller
 {
 

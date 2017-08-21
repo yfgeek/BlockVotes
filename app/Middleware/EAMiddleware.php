@@ -2,7 +2,11 @@
 
 namespace App\Middleware;
 
-
+/**
+ * EA Middleware
+ * @author  Yifan Wu
+ * @package Middleware
+ */
 class EAMiddleware extends Middleware
 {
     /**

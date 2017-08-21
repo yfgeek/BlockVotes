@@ -2,7 +2,11 @@
 
 namespace App\Middleware;
 
-
+/**
+ * RA Middleware
+ * @author  Yifan Wu
+ * @package Middleware
+ */
 class RAMiddleware extends Middleware
 {
     /**

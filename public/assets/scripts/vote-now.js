@@ -1,5 +1,6 @@
 /**
- *
+ * Vote Now page
+ * @author  Yifan Wu
  */
 function startVote() {
     step = 0;

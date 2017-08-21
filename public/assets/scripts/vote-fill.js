@@ -1,3 +1,7 @@
+/**
+ * Vote Fill page
+ * @author  Yifan Wu
+ */
 $(document).ready(function() {
     $(".btn-updatekey").on('click', function() {
         var public_key = $.base64('encode', $(".public-key-area").val());

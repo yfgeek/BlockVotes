@@ -1,7 +1,11 @@
 <?php
 
 namespace App\Middleware;
-
+/**
+ * CSRF Middleware
+ * @author  Yifan Wu
+ * @package Middleware
+ */
 class CsrfViewMiddleware extends Middleware
 {
     /**

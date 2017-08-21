@@ -5,8 +5,10 @@ namespace App\Validation\Rules;
 use App\Models\User;
 use Respect\Validation\Rules\AbstractRule;
 /**
-* 
-*/
+ * MatchesPassword
+ * @author  Yifan Wu
+ * @package Validation/Rules
+ */
 class MatchesPassword extends AbstractRule
 {
 	protected $password;

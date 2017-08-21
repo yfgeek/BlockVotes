@@ -1,7 +1,10 @@
 <?php
 
 use Respect\Validation\Validator as v;
-
+/**
+ * The bootstrap
+ * @author  Yifan Wu
+ */
 session_start();
 
 require __DIR__ . '/../vendor/autoload.php';

@@ -1,3 +1,7 @@
+/**
+ * Verify page
+ * @author  Yifan Wu
+ */
 $(document).ready(function() {
     getCandidates();
     $('body').delegate('.panel-vote-item', 'click', function(){

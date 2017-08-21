@@ -3,8 +3,10 @@
 namespace App\Middleware;
 
 /**
-* 
-*/
+ * Validation Errors Middleware
+ * @author  Yifan Wu
+ * @package Middleware
+ */
 class ValidationErrorsMiddleware extends Middleware
 {
 	

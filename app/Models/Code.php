@@ -3,7 +3,11 @@
 namespace app\Models;
 
 use Illuminate\Database\Eloquent\Model;
-
+/**
+ * Code Model
+ * @author  Yifan Wu
+ * @package Model
+ */
 class Code extends Model
 {
     protected $table = 'code';

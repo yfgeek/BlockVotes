@@ -1,3 +1,7 @@
+/**
+ * EA Balance
+ * @author  Yifan Wu
+ */
 $(document).ready(function() {
     var id = $(".input-id").val();
 

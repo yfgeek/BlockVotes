@@ -3,7 +3,11 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-
+/**
+ * Signatures Model
+ * @author  Yifan Wu
+ * @package Model
+ */
 class Signatures extends Model
 {
 

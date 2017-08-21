@@ -6,6 +6,11 @@ use App\Middleware\EAMiddleware;
 use App\Middleware\VoterMiddleware;
 
 /**
+ * The routes of all pages
+ * @author  Yifan Wu
+ */
+
+/**
  * Public Page
  */
 $app->get('/','HomeController:index')->setName('home');
