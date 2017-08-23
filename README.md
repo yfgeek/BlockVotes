@@ -1,11 +1,13 @@
 # BlockVotes
-An e-voting system based on blockchain using ring signature
+**An e-voting system based on blockchain using ring signature**
 
 <img src="about/logo.png" width = "50%" height = "50%"  align=center />
 
-Demo: https://www.youtube.com/watch?v=4c6pQg3q4Vc
+**Demo: https://www.youtube.com/watch?v=4c6pQg3q4Vc**
 
 https://www.bilibili.com/video/av13430551/ 
+
+PDF Slides: [blockvotes.pdf](blockvotes.pdf)
 
 
 ### Topic
@@ -90,9 +92,10 @@ It will release on Sep, 2017
 
 ![](about/8.png)
 
-![](about/9.png)
-
 ![](about/10.png)
 
 ![](about/11.png)
 
+![](about/14.png)
+
+![](about/15.png)
