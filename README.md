@@ -7,8 +7,6 @@
 
 https://www.bilibili.com/video/av13430551/ 
 
-PDF Slides: [blockvotes.pdf](blockvotes.pdf)
-
 
 ### Topic
 
