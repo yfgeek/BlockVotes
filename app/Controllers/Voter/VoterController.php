@@ -3,6 +3,7 @@
 namespace app\Controllers\Voter;
 
 use App\Controllers\Controller;
+use App\Models\User;
 
 use App\Models\VoteList;
 
@@ -116,13 +117,14 @@ class VoterController extends Controller
 
     public function getTally($request, $response){
         $vote_item = (int) $request->getParam('vote_item');
+        $eaddress = User::select('bitcoin_address')->where('id','2')->first();
         if(!$vote_item)
             return $response->withRedirect($this->router->pathFor('tally.home'));
         $result = VoteList::all()->where('id',$vote_item)->first();
         if(!$result)
             return $response->withRedirect($this->router->pathFor('tally.home'));
 
-        return $this->view->render($response,'tally/tally.twig',['item_id'=>$vote_item,'title'=>$result->title]);
+        return $this->view->render($response,'tally/tally.twig',['item_id'=>$vote_item,'title'=>$result->title,'eaaddress' => $eaddress->bitcoin_address]);
     }
 
     public function getTallyHome($request, $response){
@@ -132,13 +134,14 @@ class VoterController extends Controller
 
     public function getVerify($request, $response){
         $vote_item = (int) $request->getParam('vote_item');
+        $eaddress = User::select('bitcoin_address')->where('id','2')->first();
         if(!$vote_item)
             return $response->withRedirect($this->router->pathFor('verify.home'));
         $result = VoteList::all()->where('id',$vote_item)->first();
         if(!$result)
             return $response->withRedirect($this->router->pathFor('verify.home'));
 
-        return $this->view->render($response,'verify/verify.twig',['item_id'=>$vote_item,'title'=>$result->title]);
+        return $this->view->render($response,'verify/verify.twig',['item_id'=>$vote_item,'title'=>$result->title,'eaaddress' => $eaddress->bitcoin_address]);
     }
 
     public function getVerifyHome($request, $response){

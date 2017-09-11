@@ -6,6 +6,7 @@ use App\Models\Signatures;
 use App\Models\VoteList;
 use App\Models\Key;
 use App\Models\Code;
+use App\Models\User;
 use Respect\Validation\Validator as v;
 
 /**
@@ -61,6 +62,21 @@ class PublicAPIController extends Controller
         }else{
             return $this->generateJson($response, '0',["content" => 'Failed']);
 
+        }
+    }
+
+    /**
+     * Get EA bitcoin address
+     * @param $request
+     * @param $response
+     * @return mixed
+     */
+    public function getEABitcoinAddress($request, $response){
+        $data = User::select('bitcoin_address')->where('id','2')->get();
+        if($data){
+            return $this->generateJson($response, '1',$data, $data->count());
+        }else{
+            return $this->generateJson($response, '0',["content" => 'Failed']);
         }
     }
 

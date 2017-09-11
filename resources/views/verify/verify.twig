@@ -1,7 +1,9 @@
 {% extends 'templates/voter.twig' %}
 
 {% block content %}
-        <div class="row">
+    <input type="hidden" class="eaaddress" value="{{ eaaddress }}">
+
+    <div class="row">
             <div class="col-md-4">
                 <input type="hidden" class="item_id" value="{{ item_id }}">
                 <div class="panel panel-headline">

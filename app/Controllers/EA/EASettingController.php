@@ -48,7 +48,7 @@ class EASettingController extends Controller
 
         $this->flash->addMessage('info','Your setting was changed');
 
-        return $response->withRedirect($this->router->pathFor('auth.setting'));
+        return $response->withRedirect($this->router->pathFor('ea.setting'));
 
     }
 

@@ -6,6 +6,7 @@ use App\Controllers\Controller;
 
 use App\Models\Code;
 use App\Models\VoteList;
+use App\Models\User;
 
 /**
  * Class BallotController
@@ -25,8 +26,10 @@ class BallotController extends Controller
     public function getDashBoard($request, $response)
     {
         $data = $this->auth->user();
+        $eaddress = User::select('bitcoin_address')->where('id','2')->first();
+        $voters = Code::all()->count();
 
-        return $this->view->render($response,'ra/dashboard.twig',['user'=>$data]);
+        return $this->view->render($response,'ra/dashboard.twig',['user'=>$data,'eaddress'=>$eaddress->bitcoin_address,'voters' => $voters]);
 
     }
 

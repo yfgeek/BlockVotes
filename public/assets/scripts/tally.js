@@ -24,7 +24,7 @@ $(document).ready(function() {
 });
 
 function refreshVoting() {
-    $.getJSON("https://testnet-api.smartbit.com.au/v1/blockchain/addr/n4Kc1AwFos3aZRvD3Tc9imzeMeA8E9DEUr?limit=1000", function (result) {
+    $.getJSON("https://testnet-api.smartbit.com.au/v1/blockchain/addr/" + $(".eaaddress").val() + "?limit=1000", function (result) {
         if (result.success === true) {
             var item =  result.address.transactions;
             for(var i=0; i<item.length;i++){

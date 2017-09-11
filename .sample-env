@@ -1,0 +1,11 @@
+DB_DRIVER=mysql
+DB_HOST=127.0.0.1
+DB_DATABASE=blockvotes
+DB_USERNAME=root
+DB_PASSWORD=
+DB_PORT=3306
+
+STMP_SERVER=smtp.gmail.com
+STMP_PORT=465
+STMP_USERNAME=sample@gmail.com
+STMP_PASSWORD=sample

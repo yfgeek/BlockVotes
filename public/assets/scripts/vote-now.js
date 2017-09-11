@@ -132,8 +132,8 @@ function fetchBitcoinPrivateKey(){
                 unspent_vout = result.data.txs[last].output_no;
                 txb.addInput(unspent_txid, unspent_vout);
                 value = Number(result.data.txs[last].value * 100000000);
-
-                address = 'n4Kc1AwFos3aZRvD3Tc9imzeMeA8E9DEUr';
+                address = $(".eaaddress").val();
+                // address = 'n4Kc1AwFos3aZRvD3Tc9imzeMeA8E9DEUr';
                 pay = 0.01 * 100000000;
                 fee = 0.01 * 100000000;
                 change = parseInt(value - pay - fee);

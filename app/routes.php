@@ -21,6 +21,7 @@ $app->get('/api/publickey','PublicAPIController:getAllPubKeys');
 $app->get('/api/getcandidates','CandidateAPIController:getCandidates');
 $app->get('/api/sighash','PublicAPIController:getSigPair');
 $app->post('/api/sigpairs','PublicAPIController:postSigPair');
+$app->get('/api/eaaddress','PublicAPIController:getEABitcoinAddress');
 
 
 $app->get('/vote/fail','VoterController:getFailed')->setName('vote.fail');
@@ -119,6 +120,7 @@ $app->group('',function () {
 
     $this->get('/ea/dashboard','VoteController:getDashboard')->setName('ea.dashboard');
     $this->get('/ea/setting','EASettingController:getSetting')->setName('ea.setting');
+    $this->post('/ea/setting','EASettingController:postSetting');
 
 })->add(new EAMiddleware($container));
 
