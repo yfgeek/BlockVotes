@@ -5,8 +5,6 @@
 
 **Demo Video: https://www.youtube.com/watch?v=4c6pQg3q4Vc**
 
-**Paper**: [thesis.pdf](thesis.pdf)
-
 **Slides**: [blockvotes.pdf](blockvotes.pdf)
 
 
