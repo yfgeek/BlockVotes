@@ -1,1 +1,4 @@
-*.html linguist-language=PHP
+public/* linguist-vendored
+tests/* linguist-vendored
+about/* linguist-vendored
+vendor/* linguist-vendored
