@@ -1,3 +1,4 @@
+resources/* linguist-vendored
 public/* linguist-vendored
 tests/* linguist-vendored
 about/* linguist-vendored
